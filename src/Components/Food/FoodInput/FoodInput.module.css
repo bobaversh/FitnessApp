@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+.containers {
+    width: 100%;
+    margin-top:100px;
+    padding: 10px;
+}
+
+.csv{
+    background-color: #1b1b1b80;
+    color: rgb(255, 255, 255, 40);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    border: 2px solid #1b1b1b;
+    font-size: 15px;
+    outline: none;
+    overflow-x: scroll;
+}
+
+.macroContainers{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 10px;
+    background-color: #1b1b1b80;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.kkals{
+    width: 40%;
+    background-color: rgba(64, 64, 64, 0.8);
+    color: rgb(255, 255, 255, 40);
+    border-radius: 10px; 
+    height: 27px;
+    padding: 10px;
+}
+
+.macro{
+    width: 20%;
+    background-color: rgba(64, 64, 64, 0.8);
+    color: rgb(255, 255, 255, 40);
+    border-radius: 10px; 
+    padding: 10px;
+    height: 27px;
+}
+

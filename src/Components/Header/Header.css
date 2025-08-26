@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Saira Bold";
+    src: url("./fonts/saira-bold.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Saira Medium";
+    src: url("./fonts/saira-medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Saira ExtraLight";
+    src: url("./fonts/saira-extralight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Roboto Condensed Light";
+    src: url("./fonts/roboto-condensed-light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .header_container{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .header_start{
+    font-family: 'Saira Bold';
+    font-size: 25px;
+    width: 30%;
+    color: rgb(211, 211, 211);
+  }
+  .header_user{
+    display: none;
+  }
+  .header_cabinet{
+    display: flex;
+    align-items: center;
+    gap:5px;
+  }
+  .header_profile{
+    color: rgb(211, 211, 211);
+  }
+  .header_username{
+    color: white;
+  }
+
+
+  @media(max-width: 768px){
+    .header_container{
+      width: 100%;
+      display: flex;
+      background-color: transparent;
+      align-items: center;
+      padding: 10px;
+      justify-content: space-between;
+    }
+    .header_start{
+      font-family: 'Saira Bold';
+      font-size: 25px;
+      width: 30%;
+      color: white;
+    }
+    .header_user{
+      display: none;
+    }
+    .header_cabinet{
+      display: flex;
+      align-items: center;
+      gap:5px;
+    }
+    .header_profile{
+      color: rgb(211, 211, 211);
+    }
+    .header_username{
+      color: white;
+    }
+  }
