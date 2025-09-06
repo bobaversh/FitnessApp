@@ -29,7 +29,6 @@ npm start
 Структура проекта:
 
 ```
-text
 src/
   Components/
     CalendarNew/          # Компонент календаря
