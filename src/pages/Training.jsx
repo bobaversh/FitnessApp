@@ -59,7 +59,7 @@ export default function Training() {
       setShowPage("trainingProcess");
       setCurrentWorkout(pageInfo.workout);
     }
-  };
+  }
 
   useEffect(() => {
     console.log("Current page:", showPage);
