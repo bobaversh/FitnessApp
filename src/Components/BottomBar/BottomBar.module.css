@@ -27,7 +27,7 @@
     transition: color 0.2s ease-in-out;
 }
 
-.active {
+.icon.active {
     color: rgb(240, 240, 240) !important;
     font-size: 45px;
 }

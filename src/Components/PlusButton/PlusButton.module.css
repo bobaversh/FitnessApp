@@ -1,0 +1,7 @@
+.buttonAdd{
+    width: 100%;
+    border-radius: var(--br-medium);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}

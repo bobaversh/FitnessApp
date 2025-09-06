@@ -22,10 +22,10 @@
     font-style: normal;
   }
   
-  
-  * {
-    box-sizing: border-box;
-  }
+.header_link {
+  text-decoration: none;
+  color: inherit;
+}
 
   .header_container{
     width: 100%;

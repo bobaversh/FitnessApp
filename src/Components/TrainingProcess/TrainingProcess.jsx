@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import styles from './TrainingProcess.module.css';
-import { SlActionUndo } from "react-icons/sl";
+import React, { useState, useEffect } from 'react'
+import styles from './TrainingProcess.module.css'
+import BackButton from '../BackButton/BackButton'
 
-export default function TrainingProcess({ workout: initialWorkout, onBack }) {
+export default function TrainingProcess({ workout: initialWorkout, setShowPage }) {
   const [workout, setWorkout] = useState(null);
   
   useEffect(() => {
@@ -26,10 +26,7 @@ export default function TrainingProcess({ workout: initialWorkout, onBack }) {
 
   return (
     <div className={styles.container}>
-      <button className={styles.backButton} onClick={onBack}>
-        <SlActionUndo style={{color: '#ffffff80', fontSize: '20px', margin: '5px'}}/>
-      </button>
-      
+      <BackButton onClick={()=>{setShowPage('workout')}}/>
       <div className={styles.nameOfTraining}>
         {workout.name}
       </div>

@@ -1,0 +1,33 @@
+.container{
+    background-color: var(--bg-color);
+    min-height: 10rem;
+    padding: 10px;
+    margin:10px;
+    border-radius: var(--br-medium);
+    position: relative;
+}
+
+.item {
+    background-color: var(--bg-color-sec);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color-s);
+    border-radius: var(--br-medium);
+    padding: 10px 15px;
+}
+
+.templateName {
+    flex: 1; 
+    text-align: center; 
+}
+
+.deleteButton {
+    background-color: transparent; 
+    color: '#ffffff80'; 
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+}

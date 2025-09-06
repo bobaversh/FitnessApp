@@ -1,4 +1,4 @@
-.overlay {
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     z-index: 1000;
 }
 
-.deleteContainer {  
+.modalContent {  
     background-color: rgb(67, 67, 67);
     padding: 20px;
     border-radius: 5px;
@@ -29,7 +29,7 @@
 .deleteButton {
     border: none;
     background-color: rgba(50, 50, 50, 0.8);
-    color: #ffffff90;
+    color: #ffffff;
     padding: 10px;
     border-radius: 10px;
     width: 25%;
